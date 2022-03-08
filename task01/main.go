@@ -1,9 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 func main() {
-	var str string = "104"
-	var chisl int = 52
-	fmt.Println(str, chisl)
+	chysl := 97
+	str := "104"
+	strNew, _ := strconv.Atoi(str)
+
+	fmt.Println(strconv.Itoa(chysl), strNew)
 }
